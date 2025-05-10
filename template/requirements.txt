@@ -1,5 +1,11 @@
 streamlit
-scikit-learn
 pandas
-flaml
-numpy
+matplotlib
+seaborn
+scikit-learn
+flaml[automl]
+shap
+langchain
+google-generativeai
+python-dotenv
+langchain-google-genai
