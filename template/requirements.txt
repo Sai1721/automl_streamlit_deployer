@@ -4,9 +4,10 @@ pandas
 matplotlib
 seaborn
 scikit-learn
-python-dotenv
-flaml[automl]
+python-dotenv>=1.0.0
+flaml
 shap
 langchain
 google-generativeai
 langchain-google-genai
+Pillow
