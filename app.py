@@ -7,8 +7,6 @@ from agent import AutoMLAgent
 from pipeline import run_automl, generate_shap, plot_target_distribution
 import shutil
 
-import pkg_resources
-st.write(sorted(["%s==%s" % (i.key, i.version) for i in pkg_resources.working_set]))
 
 
 st.set_page_config(layout="wide")
