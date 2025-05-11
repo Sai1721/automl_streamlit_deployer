@@ -1,6 +1,3 @@
-import pkg_resources
-import streamlit as st
-st.write(sorted(["%s==%s" % (i.key, i.version) for i in pkg_resources.working_set]))
 # app.py
 import streamlit as st
 import pandas as pd
