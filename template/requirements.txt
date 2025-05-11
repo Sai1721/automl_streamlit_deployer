@@ -1,11 +1,12 @@
+# force rebuild
 streamlit
 pandas
 matplotlib
 seaborn
 scikit-learn
+python-dotenv
 flaml[automl]
 shap
 langchain
 google-generativeai
-python-dotenv
 langchain-google-genai
