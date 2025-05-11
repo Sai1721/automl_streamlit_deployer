@@ -12,3 +12,4 @@ google-generativeai
 langchain-google-genai
 Pillow
 setuptools
+pkg_resources
