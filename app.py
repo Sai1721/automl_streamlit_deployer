@@ -49,7 +49,7 @@ if st.session_state.df is not None:
 
             st.markdown("### 📊 Target Distribution")
             plot_target_distribution(df, target)
-            st.image("target_dist.png")
+            st.image("outputs/target_dist.png")
 
             st.markdown("### Training AutoML Model...")
             model, X = run_automl(df, target)
