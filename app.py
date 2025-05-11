@@ -7,6 +7,8 @@ from PIL import Image
 from agent import AutoMLAgent
 from pipeline import run_automl, generate_shap, plot_target_distribution
 import shutil
+import os
+os.system("pip install python-dotenv")
 
 
 
